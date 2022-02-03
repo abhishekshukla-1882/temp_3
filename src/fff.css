@@ -1,0 +1,214 @@
+body{
+    padding : 70px;
+    font-family: sans-serif;
+}
+nav{
+    float: right;
+}   
+
+
+
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    
+    margin: 0px;
+ 
+}
+
+
+
+li{
+    display: inline;
+    padding:18px;
+    padding-bottom: 50px;
+
+    padding-top: 0em;
+ 
+}
+h1{
+    margin: 0px;
+}
+
+
+
+#site-logo{
+    margin: 0px;
+
+    padding: 0px;
+
+    font-size: 18px;
+    padding-left: 20px;
+
+}
+
+
+
+#banner{
+    width: auto;
+    padding-top:20px;
+    padding-bottom: 39px;
+
+    padding-left: 20px;
+    margin-top : 20px;
+
+    margin-bottom: 20px;
+    background-color: #EEEEEE;
+}
+
+#banner-text{
+    width: 25%;
+    margin-bottom: 20px;
+    
+}
+
+.headings{
+    padding: 1em 2em 1em 1em;
+    display: flex;
+
+    width: 100%;
+    text-align: center;
+
+}
+.heading1{
+    background-color: white;
+    flex: 33%;
+    float: left;
+}
+.heading2{
+    background-color: white;
+    flex: 33%;
+
+    float: left;
+}
+.heading3{
+    background-color: white;
+    flex: 33%;
+    float: left;
+}
+@media (max-width: 800px) {
+    body{
+        max-width: 100vw;
+
+        padding:30px;
+        overflow-x: hidden;
+    }
+    .headings {
+      flex-direction: column;
+    }
+    .heading1{
+        padding :20px;
+    }
+  }
+.box{
+    background-color: #EEEEEE;
+    padding: 30% 20% 10% 20%;
+    margin: 10%;
+    margin-top: 0;
+
+    margin-bottom: 0;
+}
+.head{
+    font-size: 1em;
+    
+    padding-top: 5%;
+    font-weight: bold;
+}
+.head-para{
+    text-align: justify;
+    padding-top: 5%;
+    
+    padding-bottom: 5%;
+
+    padding-left: 15%;
+    padding-right: 15%;
+
+    
+
+}
+.head-link{
+    
+    padding-top: 1%;
+}
+
+
+
+.Subscribe{
+    width:100%;
+    padding-top:1.8em;
+    padding-bottom: 1.8em;
+    padding-left: 1em;
+    margin-top : 2em;
+    margin-bottom: 2em;
+    background-color: #EEEEEE;
+    text-align: center;
+}
+.sub-text{
+    display: inline;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.Text-box{
+    width: 18em;
+    margin-left:1em;
+    margin-right: 1em;
+    height: 2em;
+}
+.button2{
+    width: 14em;
+    height: 2em;
+    background-color: #288ACF;
+    border: none;
+    text-align: left;
+    padding-left: 2em ;
+    color:white;
+    font-size: 1em;
+    font-weight: bold;
+}
+@media screen and (max-width:670px) {
+    body{
+       
+        overflow-x: hidden !important;
+    }
+    nav{
+        display: block;
+        float: right;
+        padding: 5px;
+    }
+    .banner{
+        width: auto;
+    }
+    .Subscribe{
+        text-align: center;
+        display: block;
+    }
+ .sub-text{
+     display: block;
+     margin-bottom: 20px;
+ }
+ .Text-box{
+     display: block;
+     margin-bottom: 20px;
+     overflow: hidden;
+ }
+ .button2{
+     display: block;
+     margin: auto;
+     margin-top: 20px;
+     margin-bottom: 20px;
+
+ }
+    
+}
+
+#footer p{
+    display: inline;
+    font-size: 0.9em;
+}
+#left{
+    float: left;
+}
+#right{
+    float: right;
+}
